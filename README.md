@@ -1,1 +1,1 @@
-# godhimself8300.github.io
+# This is in beta, a lot of things may look childish and or incompete
