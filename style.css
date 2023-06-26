@@ -1,0 +1,152 @@
+#startBody {
+    background-image: url("BC-Files/images/startBackground.svg");
+    background-repeat: no-repeat;
+}
+
+#maingameBody {
+    overflow: hidden;
+}
+
+#startButton {
+    border-radius: 200px;
+    width: 420px;
+    height: 170px;
+    font-size: 65px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+    animation: SBanimation 30s infinite;
+    box-shadow: 10px 10px 5px #474747;
+}
+
+@keyframes SBanimation {
+    5% {background-color: #ff2b00ff; border: 7.5px outset #ff2b00ff;}
+    10% {background-color: #ff5e00ff; border: 7.5px outset #ff5e00ff;}
+    15% {background-color: #ff9600ff; border: 7.5px outset #ff9600ff;}
+    20% {background-color: #ffd000ff; border: 7.5px outset #ffd000ff;}
+    25% {background-color: #bcff00ff; border: 7.5px outset #bcff00ff;}
+    30% {background-color: #52ff00ff; border: 7.5px outset #52ff00ff;}
+    35% {background-color: #00ff71ff; border: 7.5px outset #00ff71ff;}
+    40% {background-color: #00ffc8ff; border: 7.5px outset #00ffc8ff;}
+    45% {background-color: #00c1ffff; border: 7.5px outset #00c1ffff;}
+    50% {background-color: #0081ffff; border: 7.5px outset #0081ffff;}
+    55% {background-color: #005dffff; border: 7.5px outset #005dffff;}
+    60% {background-color: #004effff; border: 7.5px outset #004effff;}
+    65% {background-color: #001dffff; border: 7.5px outset #001dffff;}
+    70% {background-color: #6c00ffff; border: 7.5px outset #6c00ffff;}
+    75% {background-color: #8500ffff; border: 7.5px outset #8500ffff;}
+    80% {background-color: #9b00ffff; border: 7.5px outset #9b00ffff;}
+    85% {background-color: #b400ffff; border: 7.5px outset #b400ffff;}
+    90% {background-color: #d800ffff; border: 7.5px outset #d800ffff;}
+    95% {background-color: #ff00e7ff; border: 7.5px outset #ff00e7ff;}
+    100% {background-color:#ff0095; border: 7.5px outset #ff0095;}
+}
+
+#startScreenTitle {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    animation: SSTanimation linear 10s infinite;
+}
+
+@keyframes SSTanimation {
+    0% {left: 50%;}
+    50% {left: 55%;}
+    75% {left: 45%;}
+    100% {left: 50%;}
+}
+
+#b1 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+}
+
+#b2 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+}
+
+#b3 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+}
+
+#b4 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+}
+
+#b5 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+}
+
+#b6 {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    
+}
+
+@keyframes moneyAnimation {
+    5% {color: #ff2b00ff;}
+    10% {color: #ff5e00ff;}
+    15% {color: #ff9600ff;}
+    20% {color: #ffd000ff;}
+    25% {color: #bcff00ff;}
+    30% {color: #52ff00ff;}
+    35% {color: #00ff71ff;}
+    40% {color: #00ffc8ff;}
+    45% {color: #00c1ffff;}
+    50% {color: #0081ffff;}
+    55% {color: #005dffff;}
+    60% {color: #004effff;}
+    65% {color: #001dffff;}
+    70% {color: #6c00ffff;}
+    75% {color: #8500ffff;}
+    80% {color: #9b00ffff;}
+    85% {color: #b400ffff;}
+    90% {color: #d800ffff;}
+    95% {color: #ff00e7ff;}
+    100% {color:#ff0095;}
+}
+
+#navBar {
+    transform: translateY(-45px);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 3px outset blue;
+    text-align: center;
+}
+
+.navBarLI p {
+    float: left;
+    display: block;
+    color: blue;
+    padding: 15px 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navBarLI p:hover {
+    background-color: #111;
+    color: lightblue;
+}
+
+#moneyDisplay {
+    float: right;
+    animation: moneyAnimation 15s infinite;
+}
+

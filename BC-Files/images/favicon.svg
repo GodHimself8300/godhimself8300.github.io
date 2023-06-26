@@ -1,0 +1,23 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="7.765" y1="8.536" x2="7.765" y2="10.041" id="gradient-1" gradientTransform="matrix(1, 0, 0, 0.964341, 0, 0.304383)">
+      <stop offset="0" style="stop-color: rgb(255, 0, 213);"></stop>
+      <stop offset="1" style="stop-color: rgb(73, 32, 84);"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="8.095" y1="0.38" x2="8.095" y2="15.538" id="gradient-0" gradientTransform="matrix(1, 0, 0, 1, -0.03171, -0.095129)">
+      <stop offset="0" style="stop-color: rgb(255, 0, 0);"></stop>
+      <stop offset="1" style="stop-color: rgb(219, 73, 199);"></stop>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="8.41" y1="8.345" x2="8.41" y2="14.777" id="gradient-2">
+      <stop offset="0" style="stop-color: rgb(255, 179, 0);"></stop>
+      <stop offset="1" style="stop-color: rgb(137, 121, 0);"></stop>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1.233522, 0, 0, 1.131032, -2.129686, -0.862287)" style="">
+    <g transform="matrix(1, 0, 0, 1, 0, 0.03171)">
+      <ellipse style="stroke: rgb(0, 0, 0); fill: rgb(35, 99, 226); stroke-width: 0.1px;" cx="8.373" cy="4.664" rx="3.87" ry="3.681"></ellipse>
+      <path style="fill: rgba(216, 216, 216, 0); stroke: url(#gradient-2); stroke-width: 0.5px;" d="M 8.096 8.345 C 8.096 8.889 8.835 9.385 8.655 9.945 C 8.549 10.281 7.812 11.192 7.964 11.658 C 8.146 12.229 9.064 12.702 8.843 13.397 C 8.706 13.825 8.122 14.494 8.122 14.777"></path>
+      <text style="fill: url(#gradient-1); font-family: Arial, sans-serif; font-size: 1.3px; paint-order: fill; white-space: pre;" transform="matrix(0.808569, 0, 0, 1.568298, 2.072063, -9.539697)"><tspan x="3.369" y="9.579" dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07">Balloon Clicker</tspan><tspan x="3.369" dy="1em">​</tspan></text>
+    </g>
+  </g>
+</svg>

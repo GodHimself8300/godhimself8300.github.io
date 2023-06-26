@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body onload="onloadFunctions()" id="maingameBody">
+    <div id="balloons">
+        <img src="BC-Files/images/balloon-images/BCballoon1.svg" onclick="balloonClicked()" id="b1">
+        <img src="BC-Files/images/balloon-images/BCballoon2.svg" onclick="balloonClicked()" id="b2">
+        <img src="BC-Files/images/balloon-images/BCballoon3.svg" onclick="balloonClicked()" id="b3">
+        <img src="BC-Files/images/balloon-images/BCballoon4.svg" onclick="balloonClicked()" id="b4">
+        <img src="BC-Files/images/balloon-images/BCballoon5.svg" onclick="balloonClicked()" id="b5">
+        <img src="BC-Files/images/balloon-images/BCballoon6.svg" onclick="balloonClicked()" id="b6">
+    </div>
+
+    <ul id="navBar" class="navBarLI">
+        <li><p id="menu" onclick="menuClicked()">Menu</p></li>
+        <li><p id="store" onclick="storeClicked()">Store</p></li>
+        <li><p id="help" onclick="helpClicked()">Help/Tutorial</p></li>
+        <li><p id="showNotifs" onclick="notifsClicked()">Show Notifications</p></li>
+        <li><p id="moneyDisplay">BC Money: 0</p></li>
+        </div>
+    </ul>
+</body>
+
+<script src="script.js"></script>
+
+</html>
